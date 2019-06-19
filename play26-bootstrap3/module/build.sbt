@@ -1,6 +1,6 @@
 name := """play-bootstrap"""
 
-version := "1.4-P26-B3-SNAPSHOT"
+version := "1.4-P26-B3-2018-11-23"
 
 scalaVersion := "2.12.4"
 
@@ -13,7 +13,7 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   filters % "provided",
-  "com.adrianhurt" %% "play-bootstrap-core" % "1.4-P26-SNAPSHOT",
+  "com.simianquant" %% "play-bootstrap-core" % "1.4-P26-2018-11-23",
   specs2 % Test
 )
 
@@ -31,7 +31,7 @@ sonatypeSettings
 
 publishMavenStyle := true
 
-organization := "com.adrianhurt"
+organization := "com.simianquant"
 
 description := "This is a collection of input helpers and field constructors for Play Framework to render Bootstrap HTML code."
 

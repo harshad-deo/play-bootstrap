@@ -1,6 +1,6 @@
 name := """play-bootstrap-core"""
 
-version := "1.4-P26-SNAPSHOT"
+version := "1.4-P26-2018-11-23"
 
 scalaVersion := "2.12.4"
 
@@ -23,7 +23,7 @@ sonatypeSettings
 
 publishMavenStyle := true
 
-organization := "com.adrianhurt"
+organization := "com.simianquant"
 
 description := "This is a collection of input helpers and field constructors for Play Framework to render Bootstrap HTML code."
 
